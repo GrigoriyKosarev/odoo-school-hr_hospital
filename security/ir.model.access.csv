@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_hr_hospital_hr_hospital,hr_hospital.hr_hospital,model_hr_hospital_hr_hospital,base.group_user,1,1,1,1
+access__hr_hos_patient__group_user,access__hr_hos_patient__group_user,model_hr_hos_patient,base.group_user,1,1,1,1
