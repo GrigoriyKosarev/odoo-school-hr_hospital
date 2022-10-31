@@ -8,6 +8,7 @@
           <field name="name"/>
           <field name="full_name"/>
           <field name="active"/>
+          <field name="patient_card_ids" widget="many2many_tags"/>
         </tree>
       </field>
     </record>
@@ -23,6 +24,7 @@
                         <field name="name"/>
                         <field name="full_name"/>
                         <field name="active"/>
+                        <field name="patient_card_ids" widget="many2many_tags"/>
                     </group>
                 </sheet>
             </form>
