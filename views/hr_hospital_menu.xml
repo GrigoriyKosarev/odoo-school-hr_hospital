@@ -4,9 +4,13 @@
   <menuitem id="hr_hos_main_menu"
             name="Hospital" sequence="300"/>
 
-  <menuitem id="hr_hos_catalog_menu"
+  <menuitem id="hr_hos_hospital_menu"
             parent="hr_hos_main_menu"
             name="Hospital" sequence="100"/>
+
+  <menuitem id="hr_hos_etc_menu"
+            parent="hr_hos_main_menu"
+            name="Etc" sequence="101"/>
 
   <menuitem id="hr_hos_settings_main_menu"
             parent="hr_hos_main_menu"

@@ -39,7 +39,7 @@
 
     <menuitem id="hr_hos_doctor_menu"
               action="hr_hos_doctor_act_window"
-              parent="hr_hos_catalog_menu"
+              parent="hr_hos_hospital_menu"
               name="Doctors"
               sequence="210"/>
 

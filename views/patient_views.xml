@@ -41,7 +41,7 @@
 
     <menuitem id="hr_hos_patient_menu"
               action="hr_hos_patient_act_window"
-              parent="hr_hos_catalog_menu"
+              parent="hr_hos_hospital_menu"
               name="Patients"
               sequence="200"/>
 

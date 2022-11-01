@@ -8,5 +8,4 @@ class Doctor(models.Model):
     name = fields.Char()
     full_name = fields.Char()
 
-    is_worker = fields.Boolean(
-        default=True, )
+    is_worker = fields.Boolean(default=True, )

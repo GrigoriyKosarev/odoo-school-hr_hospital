@@ -11,5 +11,4 @@ class Patient(models.Model):
     active = fields.Boolean(
         default=True, )
 
-    patient_card_ids = fields.Many2many(
-        comodel_name='hr.hos.patient_card', )
+    patient_card_ids = fields.Many2many(comodel_name='hr.hos.patient_card', )
