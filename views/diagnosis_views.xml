@@ -1,0 +1,41 @@
+<odoo>
+
+    <record id="hr_hos_diagnosis_tree" model="ir.ui.view">
+      <field name="name">hr.hos.diagnosis.tree ()</field>
+      <field name="model">hr.hos.diagnosis</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="hr_hos_diagnosis_form" model="ir.ui.view">
+        <field name="name">hr.hos.diagnosis.form ()</field>
+        <field name="model">hr.hos.diagnosis</field>
+        <field name="arch" type="xml">
+            <form>
+                <header></header>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="hr_hos_diagnosis_act_window" model="ir.actions.act_window">
+        <field name="name">Diagnosis</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.hos.diagnosis</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="hr_hos_diagnosis_menu"
+              action="hr_hos_diagnosis_act_window"
+              parent="hr_hos_etc_menu"
+              name="Diagnosis"
+              sequence="233"/>
+
+</odoo>
