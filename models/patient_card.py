@@ -1,4 +1,3 @@
-
 from odoo import models, fields
 
 class PatientCard(models.Model):
